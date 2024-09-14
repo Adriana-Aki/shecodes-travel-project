@@ -1,0 +1,87 @@
+.heading-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/bcg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+}
+
+.heading-page a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+
+.p-header {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+
+.p-label {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+.p-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.p-text-header {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+  text-align: left;
+}
