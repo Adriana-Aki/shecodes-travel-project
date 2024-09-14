@@ -9,33 +9,33 @@
   text-align: center;
 }
 
-h1 {
+.heading-page h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
   line-height: 144px;
   text-align: center;
-  color: white;
+  color: white !important;
 }
 
-h2 {
+.heading-page h2 {
   font-family: Poppins;
   font-size: 40px;
   font-weight: 400;
   line-height: 60px;
   text-align: center;
-  color: white;
+  color: white !important;
 }
 
-h3 {
+.heading-page h3 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 900;
   line-height: 36px;
   letter-spacing: 5px;
   text-align: center;
-  color: white;
+  color: white !important;
 }
 
 .heading-page a {
@@ -53,18 +53,32 @@ h3 {
   background: white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .heading-page {
     padding: 60px 0;
   }
-  h1 {
+
+  .heading-page h1 {
     font-size: 48px;
+    line-height: 1.3;
   }
-  h2 {
+  .heading-page h2 {
     font-size: 20px;
+    line-height: 1.3;
   }
-  h3 {
+
+  .heading-page h3 {
     font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .heading-page a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 12px 28px;
+    margin-top: 32px;
+    letter-spacing: 3px;
   }
 }
 
