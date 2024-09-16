@@ -103,6 +103,50 @@ footer ul {
   opacity: 0.8;
 }
 
+.why-barcelona {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 0;
+  grid-gap: 30px;
+}
+
+.why-barcelona img {
+  display: block;
+  object-fit: cover;
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+.why-barcelona h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+.why-barcelona h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0px 0px 20px 0px;
+}
+
+.why-barcelona p {
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
 .p-header {
   font-family: Poppins;
   font-size: 40px;
@@ -182,5 +226,25 @@ footer ul {
   footer a {
     font-size: 8px;
     line-height: 1.2;
+  }
+
+  .why-barcelona {
+    grid-template-columns: 1fr;
+    padding: 50px 0;
+  }
+
+  .why-barcelona h3 {
+    font-size: 8px;
+    line-height: 1.2;
+  }
+
+  .why-barcelona h2 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .why-barcelona p {
+    font-size: 8px;
+    line-height: 1.1;
   }
 }
