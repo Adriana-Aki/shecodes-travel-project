@@ -114,7 +114,7 @@ footer ul {
   display: block;
   object-fit: cover;
   width: 500px;
-  height: 400px;
+  height: 450px;
   margin: auto;
 }
 
@@ -212,29 +212,32 @@ footer ul {
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
-
+  footer {
+    padding: 40px 0;
+  }
   footer h3 {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.3;
   }
 
   footer p {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.2;
   }
 
   footer a {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.2;
   }
 
   .why-barcelona {
     grid-template-columns: 1fr;
     padding: 50px 0;
+    text-align: center;
   }
 
   .why-barcelona h3 {
-    font-size: 8px;
+    font-size: 16px;
     line-height: 1.2;
   }
 
@@ -244,7 +247,7 @@ footer ul {
   }
 
   .why-barcelona p {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 1.1;
   }
 }
