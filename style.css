@@ -116,6 +116,7 @@ footer ul {
   width: 500px;
   height: 500px;
   margin: auto;
+  filter: sepia(30%);
 }
 
 .why-barcelona h3 {
