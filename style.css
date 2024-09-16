@@ -289,7 +289,7 @@ footer ul {
     grid-gap: 20px;
   }
   footer {
-    padding: 40px 0;
+    padding: 40px 20px;
   }
   footer h3 {
     font-size: 16px;
@@ -330,6 +330,16 @@ footer ul {
   .favourites {
     background: #f8f8f8;
     padding: 50px 20px 50px 20px;
+  }
+
+  .favourites h3 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .favaurites h2 {
+    font-size: 20px;
+    line-height: 1.2;
   }
 
   .favaurite-grid {
