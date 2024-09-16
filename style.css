@@ -106,7 +106,7 @@ footer ul {
 .why-barcelona {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 100px 0;
+  padding: 100px 150px;
   grid-gap: 30px;
 }
 
@@ -114,7 +114,7 @@ footer ul {
   display: block;
   object-fit: cover;
   width: 500px;
-  height: 450px;
+  height: 500px;
   margin: auto;
 }
 
@@ -145,6 +145,58 @@ footer ul {
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+}
+
+.favourites {
+  background: #f8f8f8;
+  padding: 100px 200px;
+}
+
+.favourites h3 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 5px;
+  text-align: center;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.favourites h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  color: #272044;
+}
+
+.favaurite-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.cafe {
+  background: white;
+  padding: 20px;
+}
+.cafe a {
+  display: block;
+  background: #462cb2;
+  color: white;
+  padding: 16px;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-align: center;
+  border: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .p-header {
